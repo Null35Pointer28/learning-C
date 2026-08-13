@@ -22,3 +22,8 @@
 - Nesting of switch is allowed.
 - Defaault is optional; runs if no match.
 - Default can be placed anywhere.
+
+##  Fall - through Statements
+
+- Occurs when break is not used after a case.
+- This causes the control to continue executing the next case <br> even if they dont match the expression **_until break found_**.
